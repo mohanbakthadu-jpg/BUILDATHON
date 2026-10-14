@@ -1,0 +1,20 @@
+streamlit
+python-dotenv
+pypdf
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-openai
+faiss-cpu
+sentence-transformers
+
+
+# Install all required packages:
+pip install streamlit python-dotenv pypdf langchain-community langchain-text-splitters langchain-huggingface langchain-openai faiss-cpu sentence-transformers
+
+# This file will contain exact versions of everything installed.
+pip freeze > requirements.txt
+
+# Reinstall from requirements.txt (future use)
+pip install -r requirements.txt
+
